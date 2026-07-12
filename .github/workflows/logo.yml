@@ -1,0 +1,103 @@
+name: Logo Update
+env:
+  TZ: Asia/Shanghai
+  LOGO_DIR: "logo"
+  FILE_EXT: "png"
+  MIN_FILE_SIZE: "1k"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 5'
+jobs:
+  sync-logo:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 初始化logo目录
+        run: mkdir -p "$LOGO_DIR"
+
+      - name: 同步Logo文件
+        run: |
+          set -euo pipefail
+          # 格式：仓库URL|源目录列表(多个目录用逗号分隔)|分支名(默认主分支)
+          # 优先级从上到下
+          REPOS=(
+            "https://github.com/wind005/TVlive|LOGO"
+            "https://github.com/fanmingming/live|tv"
+            "https://github.com/suxuang/myIPTV|img,tvlog"
+            "https://github.com/zzzz0317/beijing-unicom-iptv-playlist|img"
+            "https://github.com/mytv-android/myTVlogo|img"
+            "https://github.com/sumingyd/IPTV-Scanner-Editor-Pro|logo"
+          )
+
+          WORKSPACE=$(pwd)
+          EXISTING_FILES=$(find "$LOGO_DIR" -name "*.$FILE_EXT" -type f 2>/dev/null | sort)
+
+          for REPO in "${REPOS[@]}"; do
+            IFS='|' read -r URL SRC_DIRS BRANCH <<< "$REPO"
+            BRANCH=${BRANCH:-main}
+            REPO_HASH=$(echo "$URL" | md5sum | cut -c1-8)
+            TEMP_DIR="temp_repo_$REPO_HASH"
+
+            # 快速克隆：只获取最新提交，不检出文件
+            git clone --depth 1 --filter=blob:none --no-checkout --branch "$BRANCH" "$URL" "$TEMP_DIR" 2>/dev/null || continue
+
+            cd "$TEMP_DIR"
+            git sparse-checkout init --cone 2>/dev/null || true
+
+            IFS=',' read -ra DIR_LIST <<< "$SRC_DIRS"
+            for DIR in "${DIR_LIST[@]}"; do
+              DIR=$(echo "$DIR" | xargs)
+
+              # 快速检查目录是否存在
+              git ls-tree HEAD "$DIR" &>/dev/null || continue
+
+              git sparse-checkout set "$DIR" 2>/dev/null || continue
+              git checkout 2>/dev/null || continue
+
+              # 批量查找并复制文件（减少循环次数）
+              find "$DIR" -name "*.$FILE_EXT" -type f -size +"$MIN_FILE_SIZE" -print0 2>/dev/null | while IFS= read -r -d '' file; do
+                filename=$(basename "$file")
+                target="$WORKSPACE/$LOGO_DIR/$filename"
+                if [ ! -f "$target" ]; then
+                  cp -f "$file" "$target"
+                fi
+              done
+            done
+
+            cd "$WORKSPACE"
+            rm -rf "$TEMP_DIR"
+          done
+
+          # 删除小于1k的文件
+          find "$LOGO_DIR" -type f -name "*.$FILE_EXT" ! -size +"$MIN_FILE_SIZE" -delete 2>/dev/null
+
+      - name: 暂存文件
+        run: git add "$LOGO_DIR"/*.$FILE_EXT
+        continue-on-error: true
+
+      - name: 拉取最新代码并提交推送
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --cached --name-only | grep -q .; then
+            git fetch origin main
+            git commit -m "频道台标更新: $(date +'%Y-%m-%d %H:%M') (CST)"
+            git push origin HEAD:$GITHUB_REF_NAME --force
+            echo "✅ 拉取最新代码并强制推送完成"
+          else
+            echo "ℹ️ 无文件变更，跳过提交和推送"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 清理临时文件
+        if: always()
+        run: rm -rf temp_* .temp_* 2>/dev/null

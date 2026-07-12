@@ -1,0 +1,169 @@
+name: EPG Update
+on:
+  schedule:
+    - cron: '30 16,22,4,10 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-job:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 1
+
+      - name: 安装依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y opencc gzip
+
+      - name: 下载合并去重
+        run: |
+          # ===================== 源配置 =====================
+          EPG_SOURCES=(
+            "http://epg.51zmt.top:8000/e1.xml.gz"
+            "http://epg.51zmt.top:8000/e2.xml.gz"
+            # "https://epg.zsdc.eu.org/t.xml.gz"
+            # "https://raw.githubusercontent.com/kuke31/xmlgz/main/e.xml.gz"
+            "https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz"
+            "https://raw.githubusercontent.com/zzq1234567890/epg/master/epgziyong.xml"
+            # "https://raw.githubusercontent.com/suzukua/epg/refs/heads/hidden/t.xml.gz"
+            # "https://epg.pw/xmltv/epg_CN.xml"
+            # "https://epg.pw/xmltv/epg_HK.xml"
+            # "https://epg.pw/xmltv/epg_TW.xml"
+          )
+
+          # 清理
+          rm -rf *.xml *.gz temp_* || true
+
+          # 下载
+          INDEX=0
+          for URL in "${EPG_SOURCES[@]}"; do
+            TMP_RAW="temp_${INDEX}.raw"
+            wget -q -T 20 -t 2 -O "$TMP_RAW" "$URL" || true
+            if [ -s "$TMP_RAW" ]; then
+              if file -b "$TMP_RAW" | grep -q gzip; then
+                gunzip -c "$TMP_RAW" > "temp_${INDEX}.xml"
+              else
+                mv "$TMP_RAW" "temp_${INDEX}.xml"
+              fi
+            fi
+            rm -f "$TMP_RAW"
+            INDEX=$((INDEX+1))
+          done
+
+          # 检查有效文件
+          if [ $(ls temp_*.xml 2>/dev/null | wc -l) -eq 0 ]; then
+            echo "❌ 所有源下载失败"
+            exit 1
+          fi
+
+          # 繁简转换
+          for f in temp_*.xml; do
+            opencc -i "$f" -o "$f" -c t2s.json || true
+          done
+
+          # ==================== 提取完整标签块 ====================
+          > temp_all.txt
+          FILE_IDX=0
+          for FILE in temp_*.xml; do
+            printf "FILEMARKER_%d\n" "$FILE_IDX" >> temp_all.txt
+            awk '
+              /^[ \t]*<channel / { inChan=1 }
+              inChan { print }
+              /^[ \t]*<\/channel>/ { inChan=0 }
+
+              /^[ \t]*<programme / { inProg=1 }
+              inProg { print }
+              /^[ \t]*<\/programme>/ { inProg=0 }
+            ' "$FILE" >> temp_all.txt
+            FILE_IDX=$((FILE_IDX+1))
+          done
+
+          # ==================== ✅ 整块去重 ====================
+          # channel：重复ID = 整块删除（首次出现优先）
+          # programme：同一频道 + 同一天（YYYYMMDD）= 整块删除（前一个文件已有则跳过）
+          awk '
+            /^FILEMARKER_/ {
+              num = $0
+              sub(/^FILEMARKER_/, "", num)
+              file_idx = num + 0
+              next
+            }
+
+            # --------------------------
+            # channel 整块去重（ID 维度）
+            # --------------------------
+            /<channel / {
+              match($0,/id="([^"]+)"/)
+              id = substr($0,RSTART+4,RLENGTH-5)
+              skip_chan = (id != "" && seen_c[id]++)
+              if (skip_chan) in_skip_chan = 1
+            }
+            in_skip_chan {
+              if (/<\/channel>/) in_skip_chan = 0
+              next
+            }
+
+            # --------------------------
+            # programme 整块去重（channel+date 维度）
+            # 如果前一个文件已有该频道这一天的数据 → 跳过
+            # --------------------------
+            /<programme / {
+              match($0,/channel="([^"]+)"/)
+              c = substr($0,RSTART+8,RLENGTH-9)
+              match($0,/start="([^"]+)"/)
+              s = substr($0,RSTART+6,RLENGTH-7)
+              date = substr(s,1,8)
+              key = c "," date
+              if (key != "," && key in seen_p && seen_p[key] < file_idx) {
+                in_skip_prog = 1
+              } else if (key != ",") {
+                seen_p[key] = file_idx
+              }
+            }
+            in_skip_prog {
+              if (/<\/programme>/) in_skip_prog = 0
+              next
+            }
+
+            1
+          ' temp_all.txt > temp_clean.txt
+
+          # ==================== 固定头部 ====================
+          cat > e.xml << 'EOF'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <tv generator-info-name="聚合EPG" generator-info-url="https://github.com/CCSH/IPTV">
+          EOF
+
+          cat temp_clean.txt >> e.xml
+          echo "</tv>" >> e.xml
+
+          # 时区
+          sed -i 's/+0000/+0800/g' e.xml
+
+          # 压缩
+          gzip -9 -c e.xml > e.xml.gz
+
+          # 清理
+          rm -rf temp_*
+
+      - name: 提交并推送结果
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add e.xml e.xml.gz
+
+          if git diff --cached --quiet; then
+            echo "ℹ️ 无变更，跳过提交"
+          else
+            git commit -m "汇总节目单更新: $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')(CST)"
+            git push
+            echo "✅ 推送成功"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

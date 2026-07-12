@@ -1,0 +1,109 @@
+name: Name Update
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'XML文件URL列表（每行一个）'
+        required: false
+        type: string
+
+jobs:
+  run-job:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    env:
+      URLS: |
+        http://epg.51zmt.top:8000/e1.xml.gz
+        http://epg.51zmt.top:8000/e2.xml.gz
+        https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz
+        https://raw.githubusercontent.com/zzq1234567890/epg/master/epgziyong.xml
+
+      EXTRACT_MODE: "tag"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+      - name: 安装工具
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y opencc gzip
+
+      - name: Parse URLs
+        id: parse-urls
+        run: |
+          if [ -n "${{ github.event.inputs.urls }}" ]; then
+            echo "${{ github.event.inputs.urls }}" > urls.txt
+          else
+            echo "${{ env.URLS }}" > urls.txt
+          fi
+
+          sed -i '/^\s*$/d' urls.txt
+          sed -i '/^\s*#/d' urls.txt
+
+          echo "找到 $(wc -l < urls.txt) 个URL"
+          cat urls.txt
+
+      - name: Download XML files
+        run: |
+          mkdir -p xml_files
+          count=0
+          while IFS= read -r url; do
+            if [ -n "$url" ]; then
+              count=$((count + 1))
+              echo "下载第 $count 个文件: $url"
+              wget -O "xml_files/file_${count}.xml" --timeout=30 --tries=3 "$url" || {
+                echo "警告: 下载失败 $url"
+                touch "xml_files/file_${count}.xml.failed"
+              }
+            fi
+          done < urls.txt
+
+      - name: 自动解压 .gz + 提取 display-name + 繁转简
+        run: |
+          > temp_all.txt
+
+          for xmlfile in xml_files/file_*.xml; do
+            if [ -f "$xmlfile" ] && [[ ! -f "${xmlfile}.failed" ]]; then
+              echo "处理文件: $xmlfile"
+
+              # 自动判断是否 gz 并解压
+              if file -b "$xmlfile" | grep -q "gzip"; then
+                gunzip -c "$xmlfile" > "${xmlfile}.tmp"
+                xmlfile="${xmlfile}.tmp"
+              fi
+
+              # 提取频道名
+              grep -oP '<display-name[^>]*>\K[^<]+' "$xmlfile" | sed '/^$/d' >> temp_all.txt
+            fi
+          done
+
+          if [ -s temp_all.txt ]; then
+            sed 's/^[ \t]*//;s/[ \t]*$//' temp_all.txt \
+            | grep -v '^$' \
+            | opencc -c t2s.json \
+            | sort -u > display_names.txt
+
+            echo "✅ 提取完成（已繁转简），共 $(wc -l < display_names.txt) 个频道名称"
+          else
+            echo "⚠️ 未提取到任何内容"
+            touch display_names.txt
+          fi
+
+      - name: 提交并推送结果
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add display_names.txt
+
+          if git diff --cached --quiet; then
+            echo "ℹ️ 无变更，跳过提交"
+          else
+            git commit -m "频道名称更新: $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+            git push
+            echo "✅ 推送成功"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
