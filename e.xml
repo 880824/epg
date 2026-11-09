@@ -125902,7 +125902,7 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <title lang="zh">烈火(13)</title>
 </programme>
 <programme start="20261109181900 +0800" stop="20261109183000 +0800" channel="49">
-<title lang="zh">2026老字号共潮生60红三晶</title>
+<title lang="zh">老字号共潮生红三晶</title>
 </programme>
 <programme start="20261109183000 +0800" stop="20261109185600 +0800" channel="49">
 <title lang="zh">天津新闻</title>
@@ -125920,7 +125920,7 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <title lang="zh">隐锋(27)</title>
 </programme>
 <programme start="20261109210600 +0800" stop="20261109215300 +0800" channel="49">
-<title lang="zh">创业面对面11.9(2026)</title>
+<title lang="zh">创业面对面</title>
 </programme>
 <programme start="20261109215300 +0800" stop="20261109223400 +0800" channel="49">
 <title lang="zh">哈尔滨一九四四(31)</title>
@@ -126496,7 +126496,7 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <title lang="zh">动画片剧场</title>
 </programme>
 <programme start="20261109084700 +0800" stop="20261109113500 +0800" channel="60">
-<title lang="zh">经典老电影</title>
+<title lang="zh">红日</title>
 </programme>
 <programme start="20261109113500 +0800" stop="20261109123000 +0800" channel="60">
 <title lang="zh">经典老电影</title>
@@ -126504,22 +126504,22 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261109123000 +0800" stop="20261109125000 +0800" channel="60">
 <title lang="zh">新闻午报</title>
 </programme>
-<programme start="20261109125000 +0800" stop="20261109131600 +0800" channel="60">
+<programme start="20261109125000 +0800" stop="20261109131300 +0800" channel="60">
 <title lang="zh">山西天气预报</title>
 </programme>
-<programme start="20261109131600 +0800" stop="20261109141800 +0800" channel="60">
+<programme start="20261109131300 +0800" stop="20261109141200 +0800" channel="60">
 <title lang="zh">三国</title>
 </programme>
-<programme start="20261109141800 +0800" stop="20261109151500 +0800" channel="60">
+<programme start="20261109141200 +0800" stop="20261109150600 +0800" channel="60">
 <title lang="zh">三国</title>
 </programme>
-<programme start="20261109151500 +0800" stop="20261109161500 +0800" channel="60">
+<programme start="20261109150600 +0800" stop="20261109160400 +0800" channel="60">
 <title lang="zh">三国</title>
 </programme>
-<programme start="20261109161500 +0800" stop="20261109172300 +0800" channel="60">
+<programme start="20261109160400 +0800" stop="20261109170100 +0800" channel="60">
 <title lang="zh">三国</title>
 </programme>
-<programme start="20261109172300 +0800" stop="20261109183000 +0800" channel="60">
+<programme start="20261109170100 +0800" stop="20261109183000 +0800" channel="60">
 <title lang="zh">三国</title>
 </programme>
 <programme start="20261109183000 +0800" stop="20261109185300 +0800" channel="60">
@@ -128470,10 +128470,10 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <title lang="zh">荣耀绽放</title>
 </programme>
 <programme start="20261109010300 +0800" stop="20261109014800 +0800" channel="66">
-<title lang="zh">人世间(19)</title>
+<title lang="zh">人世间(20)</title>
 </programme>
 <programme start="20261109014800 +0800" stop="20261109023000 +0800" channel="66">
-<title lang="zh">人世间(20)</title>
+<title lang="zh">人世间(21)</title>
 </programme>
 <programme start="20261109023000 +0800" stop="20261109023700 +0800" channel="66">
 <title lang="zh">风华正茂向南渡</title>
@@ -128491,10 +128491,10 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <title lang="zh">海底小纵队第六季</title>
 </programme>
 <programme start="20261109045900 +0800" stop="20261109054300 +0800" channel="66">
-<title lang="zh">六姊妹(40)</title>
+<title lang="zh">六姊妹(39)</title>
 </programme>
 <programme start="20261109054300 +0800" stop="20261109062800 +0800" channel="66">
-<title lang="zh">六姊妹(41)</title>
+<title lang="zh">六姊妹(40)</title>
 </programme>
 <programme start="20261109062800 +0800" stop="20261109070100 +0800" channel="66">
 <title lang="zh">步步为营</title>
@@ -204445,6 +204445,33 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261109003700 +0800" stop="20261109010300 +0800" channel="185">
 <title lang="zh">人间真情</title>
 </programme>
+<programme start="20261109010300 +0800" stop="20261109012300 +0800" channel="185">
+<title lang="zh">非遗有新人</title>
+</programme>
+<programme start="20261109012300 +0800" stop="20261109045800 +0800" channel="185">
+<title lang="zh">谢谢你来了</title>
+</programme>
+<programme start="20261109045800 +0800" stop="20261109062800 +0800" channel="185">
+<title lang="zh">谢谢你来了</title>
+</programme>
+<programme start="20261109062800 +0800" stop="20261109072100 +0800" channel="185">
+<title lang="zh">零距离</title>
+</programme>
+<programme start="20261109072100 +0800" stop="20261109075300 +0800" channel="185">
+<title lang="zh">人间真情</title>
+</programme>
+<programme start="20261109075300 +0800" stop="20261109083600 +0800" channel="185">
+<title lang="zh">养生吧</title>
+</programme>
+<programme start="20261109083600 +0800" stop="20261109115200 +0800" channel="185">
+<title lang="zh">新城市客厅</title>
+</programme>
+<programme start="20261109115200 +0800" stop="20261109120500 +0800" channel="185">
+<title lang="zh">江苏直通车</title>
+</programme>
+<programme start="20261109120500 +0800" stop="20261109123500 +0800" channel="185">
+<title lang="zh">养生吧</title>
+</programme>
 <channel id="186">
 <display-name lang="zh">江苏影视</display-name>
 </channel>
@@ -221281,113 +221308,83 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108235500 +0800" stop="20261108235959 +0800" channel="215">
 <title lang="zh">乡村普法剧场</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109000800 +0800" channel="215">
+<programme start="20261109000000 +0800" stop="20261109091800 +0800" channel="215">
 <title lang="zh">精彩呈现</title>
 </programme>
-<programme start="20261109000800 +0800" stop="20261109005100 +0800" channel="215">
+<programme start="20261109091800 +0800" stop="20261109100300 +0800" channel="215">
+<title lang="zh">法治三农</title>
+</programme>
+<programme start="20261109100300 +0800" stop="20261109105400 +0800" channel="215">
 <title lang="zh">乡村普法剧场</title>
 </programme>
-<programme start="20261109005100 +0800" stop="20261109010100 +0800" channel="215">
-<title lang="zh">中国梦歌曲</title>
+<programme start="20261109105400 +0800" stop="20261109112500 +0800" channel="215">
+<title lang="zh">法治三农</title>
 </programme>
-<programme start="20261109010100 +0800" stop="20261109010500 +0800" channel="215">
-<title lang="zh">中国梦歌曲</title>
-</programme>
-<programme start="20261109010500 +0800" stop="20261109051000 +0800" channel="215">
-<title lang="zh">节目结束</title>
-</programme>
-<programme start="20261109051000 +0800" stop="20261109052900 +0800" channel="215">
-<title lang="zh">测试图</title>
-</programme>
-<programme start="20261109052900 +0800" stop="20261109055800 +0800" channel="215">
-<title lang="zh">乡村零距离</title>
-</programme>
-<programme start="20261109055800 +0800" stop="20261109062800 +0800" channel="215">
+<programme start="20261109112500 +0800" stop="20261109120200 +0800" channel="215">
 <title lang="zh">三农时空</title>
 </programme>
-<programme start="20261109062800 +0800" stop="20261109071000 +0800" channel="215">
-<title lang="zh">皖美乡村</title>
+<programme start="20261109120200 +0800" stop="20261109123200 +0800" channel="215">
+<title lang="zh">法治三农</title>
 </programme>
-<programme start="20261109071000 +0800" stop="20261109075200 +0800" channel="215">
+<programme start="20261109123200 +0800" stop="20261109131800 +0800" channel="215">
+<title lang="zh">风云年代(32)</title>
+</programme>
+<programme start="20261109131800 +0800" stop="20261109140300 +0800" channel="215">
+<title lang="zh">风云年代(33)</title>
+</programme>
+<programme start="20261109140300 +0800" stop="20261109144700 +0800" channel="215">
 <title lang="zh">乡村普法剧场</title>
 </programme>
-<programme start="20261109075200 +0800" stop="20261109083700 +0800" channel="215">
-<title lang="zh">剧场</title>
+<programme start="20261109144700 +0800" stop="20261109151600 +0800" channel="215">
+<title lang="zh">活起来的技艺(3)</title>
 </programme>
-<programme start="20261109083700 +0800" stop="20261109092800 +0800" channel="215">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109092800 +0800" stop="20261109100800 +0800" channel="215">
-<title lang="zh">皖美乡村</title>
-</programme>
-<programme start="20261109100800 +0800" stop="20261109105900 +0800" channel="215">
-<title lang="zh">乡村普法剧场</title>
-</programme>
-<programme start="20261109105900 +0800" stop="20261109113400 +0800" channel="215">
-<title lang="zh">皖美乡村</title>
-</programme>
-<programme start="20261109113400 +0800" stop="20261109120900 +0800" channel="215">
+<programme start="20261109151600 +0800" stop="20261109154800 +0800" channel="215">
 <title lang="zh">三农时空</title>
 </programme>
-<programme start="20261109120900 +0800" stop="20261109123900 +0800" channel="215">
-<title lang="zh">皖美乡村</title>
-</programme>
-<programme start="20261109123900 +0800" stop="20261109132500 +0800" channel="215">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109132500 +0800" stop="20261109141100 +0800" channel="215">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109141100 +0800" stop="20261109145600 +0800" channel="215">
+<programme start="20261109154800 +0800" stop="20261109163000 +0800" channel="215">
 <title lang="zh">乡村普法剧场</title>
 </programme>
-<programme start="20261109145600 +0800" stop="20261109152600 +0800" channel="215">
-<title lang="zh">乡村零距离</title>
+<programme start="20261109163000 +0800" stop="20261109165300 +0800" channel="215">
+<title lang="zh">活起来的技艺(3)</title>
 </programme>
-<programme start="20261109152600 +0800" stop="20261109160800 +0800" channel="215">
-<title lang="zh">乡村普法剧场</title>
+<programme start="20261109165300 +0800" stop="20261109165800 +0800" channel="215">
+<title lang="zh">振兴乡村唱起来</title>
 </programme>
-<programme start="20261109160800 +0800" stop="20261109163800 +0800" channel="215">
-<title lang="zh">三农时空</title>
-</programme>
-<programme start="20261109163800 +0800" stop="20261109164600 +0800" channel="215">
-<title lang="zh">中国梦歌曲</title>
-</programme>
-<programme start="20261109164600 +0800" stop="20261109171000 +0800" channel="215">
-<title lang="zh">乡村零距离</title>
-</programme>
-<programme start="20261109171000 +0800" stop="20261109175000 +0800" channel="215">
+<programme start="20261109165800 +0800" stop="20261109173800 +0800" channel="215">
 <title lang="zh">七彩剧场</title>
 </programme>
-<programme start="20261109175000 +0800" stop="20261109182000 +0800" channel="215">
-<title lang="zh">皖美乡村</title>
+<programme start="20261109173800 +0800" stop="20261109180800 +0800" channel="215">
+<title lang="zh">空中医院</title>
 </programme>
-<programme start="20261109182000 +0800" stop="20261109190800 +0800" channel="215">
+<programme start="20261109180800 +0800" stop="20261109185600 +0800" channel="215">
 <title lang="zh">乡村普法剧场</title>
 </programme>
-<programme start="20261109190800 +0800" stop="20261109193800 +0800" channel="215">
+<programme start="20261109185600 +0800" stop="20261109192600 +0800" channel="215">
 <title lang="zh">三农时空</title>
 </programme>
-<programme start="20261109193800 +0800" stop="20261109201000 +0800" channel="215">
-<title lang="zh">乡村零距离</title>
+<programme start="20261109192600 +0800" stop="20261109200200 +0800" channel="215">
+<title lang="zh">活起来的技艺(4)</title>
 </programme>
-<programme start="20261109201000 +0800" stop="20261109205100 +0800" channel="215">
+<programme start="20261109200200 +0800" stop="20261109203200 +0800" channel="215">
 <title lang="zh">法治时空</title>
 </programme>
-<programme start="20261109205100 +0800" stop="20261109214000 +0800" channel="215">
-<title lang="zh">剧场</title>
+<programme start="20261109203200 +0800" stop="20261109212000 +0800" channel="215">
+<title lang="zh">尖刀出鞘(3)</title>
 </programme>
-<programme start="20261109214000 +0800" stop="20261109223600 +0800" channel="215">
-<title lang="zh">剧场</title>
+<programme start="20261109212000 +0800" stop="20261109220800 +0800" channel="215">
+<title lang="zh">尖刀出鞘(4)</title>
 </programme>
-<programme start="20261109223600 +0800" stop="20261109230700 +0800" channel="215">
+<programme start="20261109220800 +0800" stop="20261109223100 +0800" channel="215">
+<title lang="zh">活起来的技艺(4)</title>
+</programme>
+<programme start="20261109223100 +0800" stop="20261109230700 +0800" channel="215">
+<title lang="zh">空中医院</title>
+</programme>
+<programme start="20261109230700 +0800" stop="20261109234300 +0800" channel="215">
 <title lang="zh">三农时空</title>
 </programme>
-<programme start="20261109230700 +0800" stop="20261109234400 +0800" channel="215">
-<title lang="zh">皖美乡村</title>
-</programme>
-<programme start="20261109234400 +0800" stop="20261109235959 +0800" channel="215">
-<title lang="zh">乡村零距离</title>
+<programme start="20261109234300 +0800" stop="20261109235959 +0800" channel="215">
+<title lang="zh">乡村普法剧场</title>
 </programme>
 <channel id="216">
 <display-name lang="zh">安徽影视</display-name>
@@ -221575,23 +221572,8 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108232000 +0800" stop="20261108235959 +0800" channel="216">
 <title lang="zh">利箭行动(11)</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109000200 +0800" channel="216">
+<programme start="20261109000000 +0800" stop="20261109085900 +0800" channel="216">
 <title lang="zh">精彩呈现</title>
-</programme>
-<programme start="20261109000200 +0800" stop="20261109061000 +0800" channel="216">
-<title lang="zh">利箭行动(12)</title>
-</programme>
-<programme start="20261109061000 +0800" stop="20261109064300 +0800" channel="216">
-<title lang="zh">虎胆巍城(32)</title>
-</programme>
-<programme start="20261109064300 +0800" stop="20261109072600 +0800" channel="216">
-<title lang="zh">虎胆巍城(33)</title>
-</programme>
-<programme start="20261109072600 +0800" stop="20261109081100 +0800" channel="216">
-<title lang="zh">虎胆巍城(34)</title>
-</programme>
-<programme start="20261109081100 +0800" stop="20261109085900 +0800" channel="216">
-<title lang="zh">虎胆巍城(35)</title>
 </programme>
 <programme start="20261109085900 +0800" stop="20261109094300 +0800" channel="216">
 <title lang="zh">虎胆巍城(36)</title>
@@ -229060,95 +229042,116 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108234600 +0800" stop="20261108235959 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109000400 +0800" channel="237">
+<programme start="20261109000000 +0800" stop="20261109025500 +0800" channel="237">
 <title lang="zh">精彩呈现</title>
 </programme>
-<programme start="20261109000400 +0800" stop="20261109070000 +0800" channel="237">
-<title lang="zh">电视台无节目</title>
+<programme start="20261109025500 +0800" stop="20261109065500 +0800" channel="237">
+<title lang="zh">小巷人家(38)2</title>
 </programme>
-<programme start="20261109070000 +0800" stop="20261109081500 +0800" channel="237">
+<programme start="20261109065500 +0800" stop="20261109070000 +0800" channel="237">
+<title lang="zh">小巷人家(38)3</title>
+</programme>
+<programme start="20261109070000 +0800" stop="20261109080000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109081500 +0800" stop="20261109091500 +0800" channel="237">
+<programme start="20261109080000 +0800" stop="20261109090000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109091500 +0800" stop="20261109100200 +0800" channel="237">
+<programme start="20261109090000 +0800" stop="20261109093000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109100200 +0800" stop="20261109105000 +0800" channel="237">
+<programme start="20261109093000 +0800" stop="20261109100000 +0800" channel="237">
+<title lang="zh">动画片</title>
+</programme>
+<programme start="20261109100000 +0800" stop="20261109113000 +0800" channel="237">
 <title lang="zh">剧场</title>
 </programme>
-<programme start="20261109105000 +0800" stop="20261109113800 +0800" channel="237">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109113800 +0800" stop="20261109122500 +0800" channel="237">
+<programme start="20261109113000 +0800" stop="20261109122000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109122500 +0800" stop="20261109124200 +0800" channel="237">
+<programme start="20261109122000 +0800" stop="20261109122600 +0800" channel="237">
 <title lang="zh">大玩家</title>
 </programme>
-<programme start="20261109124200 +0800" stop="20261109125300 +0800" channel="237">
+<programme start="20261109122600 +0800" stop="20261109130000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109125300 +0800" stop="20261109132600 +0800" channel="237">
+<programme start="20261109130000 +0800" stop="20261109140000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109132600 +0800" stop="20261109140000 +0800" channel="237">
+<programme start="20261109140000 +0800" stop="20261109160000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109140000 +0800" stop="20261109143700 +0800" channel="237">
+<programme start="20261109160000 +0800" stop="20261109170000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109143700 +0800" stop="20261109155100 +0800" channel="237">
+<programme start="20261109170000 +0800" stop="20261109173000 +0800" channel="237">
 <title lang="zh">动画片</title>
 </programme>
-<programme start="20261109155100 +0800" stop="20261109175800 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109173000 +0800" stop="20261109174200 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(16)</title>
 </programme>
-<programme start="20261109175800 +0800" stop="20261109184600 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109174200 +0800" stop="20261109175500 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(17)</title>
 </programme>
-<programme start="20261109184600 +0800" stop="20261109190100 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109175500 +0800" stop="20261109180800 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(18)</title>
 </programme>
-<programme start="20261109190100 +0800" stop="20261109191200 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109180800 +0800" stop="20261109182100 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(19)</title>
 </programme>
-<programme start="20261109191200 +0800" stop="20261109192800 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109182100 +0800" stop="20261109183400 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(20)</title>
 </programme>
-<programme start="20261109192800 +0800" stop="20261109194000 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109183400 +0800" stop="20261109184700 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(21)</title>
 </programme>
-<programme start="20261109194000 +0800" stop="20261109201200 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109184700 +0800" stop="20261109190000 +0800" channel="237">
+<title lang="zh">熊出没之神奇宝物(22)</title>
 </programme>
-<programme start="20261109201200 +0800" stop="20261109203000 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109190000 +0800" stop="20261109190600 +0800" channel="237">
+<title lang="zh">大玩家</title>
 </programme>
-<programme start="20261109203000 +0800" stop="20261109204400 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109190600 +0800" stop="20261109192000 +0800" channel="237">
+<title lang="zh">超级飞侠(14)</title>
 </programme>
-<programme start="20261109204400 +0800" stop="20261109210300 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109192000 +0800" stop="20261109193500 +0800" channel="237">
+<title lang="zh">超级飞侠(15)</title>
 </programme>
-<programme start="20261109210300 +0800" stop="20261109214600 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109193500 +0800" stop="20261109195000 +0800" channel="237">
+<title lang="zh">超级飞侠(16)</title>
 </programme>
-<programme start="20261109214600 +0800" stop="20261109220000 +0800" channel="237">
-<title lang="zh">嘟嘟幼幼园</title>
+<programme start="20261109195000 +0800" stop="20261109200500 +0800" channel="237">
+<title lang="zh">超级飞侠(17)</title>
 </programme>
-<programme start="20261109220000 +0800" stop="20261109224800 +0800" channel="237">
-<title lang="zh">剧场</title>
+<programme start="20261109200500 +0800" stop="20261109202000 +0800" channel="237">
+<title lang="zh">超级飞侠(18)</title>
 </programme>
-<programme start="20261109224800 +0800" stop="20261109233600 +0800" channel="237">
-<title lang="zh">剧场</title>
+<programme start="20261109202000 +0800" stop="20261109203500 +0800" channel="237">
+<title lang="zh">超级飞侠(19)</title>
 </programme>
-<programme start="20261109233600 +0800" stop="20261109234600 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109203500 +0800" stop="20261109205000 +0800" channel="237">
+<title lang="zh">超级飞侠(20)</title>
 </programme>
-<programme start="20261109234600 +0800" stop="20261109235959 +0800" channel="237">
-<title lang="zh">动画片</title>
+<programme start="20261109205000 +0800" stop="20261109210500 +0800" channel="237">
+<title lang="zh">原来是这样</title>
+</programme>
+<programme start="20261109210500 +0800" stop="20261109212000 +0800" channel="237">
+<title lang="zh">猪猪侠之恐龙日记(21)</title>
+</programme>
+<programme start="20261109212000 +0800" stop="20261109213500 +0800" channel="237">
+<title lang="zh">猪猪侠之恐龙日记(22)</title>
+</programme>
+<programme start="20261109213500 +0800" stop="20261109215000 +0800" channel="237">
+<title lang="zh">猪猪侠之恐龙日记(23)</title>
+</programme>
+<programme start="20261109215000 +0800" stop="20261109220500 +0800" channel="237">
+<title lang="zh">猪猪侠之恐龙日记(24)</title>
+</programme>
+<programme start="20261109220500 +0800" stop="20261109225500 +0800" channel="237">
+<title lang="zh">小巷人家(39)</title>
+</programme>
+<programme start="20261109225500 +0800" stop="20261109235959 +0800" channel="237">
+<title lang="zh">小巷人家(40)1</title>
 </programme>
 <channel id="238">
 <display-name lang="zh">福建教育</display-name>
@@ -233020,11 +233023,8 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108232700 +0800" stop="20261108235959 +0800" channel="241">
 <title lang="zh">精选剧场</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109000100 +0800" channel="241">
+<programme start="20261109000000 +0800" stop="20261109002500 +0800" channel="241">
 <title lang="zh">精彩呈现</title>
-</programme>
-<programme start="20261109000100 +0800" stop="20261109002500 +0800" channel="241">
-<title lang="zh">精选剧场</title>
 </programme>
 <programme start="20261109002500 +0800" stop="20261109005200 +0800" channel="241">
 <title lang="zh">福建新闻联播</title>
@@ -233038,39 +233038,6 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261109015700 +0800" stop="20261109021100 +0800" channel="241">
 <title lang="zh">调解有1套</title>
 </programme>
-<programme start="20261109021100 +0800" stop="20261109023200 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109023200 +0800" stop="20261109025700 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109025700 +0800" stop="20261109031800 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109031800 +0800" stop="20261109034300 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109034300 +0800" stop="20261109040400 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109040400 +0800" stop="20261109042900 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109042900 +0800" stop="20261109045500 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109045500 +0800" stop="20261109051900 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109051900 +0800" stop="20261109054000 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109054000 +0800" stop="20261109060200 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
-<programme start="20261109060200 +0800" stop="20261109062500 +0800" channel="241">
-<title lang="zh">凌晨剧场</title>
-</programme>
 <programme start="20261109062500 +0800" stop="20261109063500 +0800" channel="241">
 <title lang="zh">新闻启示录</title>
 </programme>
@@ -233082,12 +233049,6 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 </programme>
 <programme start="20261109070600 +0800" stop="20261109074000 +0800" channel="241">
 <title lang="zh">纪录片</title>
-</programme>
-<programme start="20261109074000 +0800" stop="20261109081700 +0800" channel="241">
-<title lang="zh">流金剧场</title>
-</programme>
-<programme start="20261109081700 +0800" stop="20261109084700 +0800" channel="241">
-<title lang="zh">流金剧场</title>
 </programme>
 <programme start="20261109084700 +0800" stop="20261109093300 +0800" channel="241">
 <title lang="zh">医道丹心</title>
@@ -236692,38 +236653,8 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108232100 +0800" stop="20261108235959 +0800" channel="250">
 <title lang="zh">剧场</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109003600 +0800" channel="250">
+<programme start="20261109000000 +0800" stop="20261109094400 +0800" channel="250">
 <title lang="zh">精彩呈现</title>
-</programme>
-<programme start="20261109003600 +0800" stop="20261109011800 +0800" channel="250">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109011800 +0800" stop="20261109015500 +0800" channel="250">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109015500 +0800" stop="20261109022800 +0800" channel="250">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109022800 +0800" stop="20261109030300 +0800" channel="250">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109030300 +0800" stop="20261109033600 +0800" channel="250">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109033600 +0800" stop="20261109041300 +0800" channel="250">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109041300 +0800" stop="20261109045600 +0800" channel="250">
-<title lang="zh">新闻正前方</title>
-</programme>
-<programme start="20261109045600 +0800" stop="20261109065000 +0800" channel="250">
-<title lang="zh">新北方</title>
-</programme>
-<programme start="20261109065000 +0800" stop="20261109090200 +0800" channel="250">
-<title lang="zh">新闻早早报</title>
-</programme>
-<programme start="20261109090200 +0800" stop="20261109094400 +0800" channel="250">
-<title lang="zh">寻源探本</title>
 </programme>
 <programme start="20261109094400 +0800" stop="20261109101500 +0800" channel="250">
 <title lang="zh">都市生活汇</title>
@@ -255655,17 +255586,11 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261109185800 +0800" stop="20261109191500 +0800" channel="285">
 <title lang="zh">法治中国</title>
 </programme>
-<programme start="20261109191500 +0800" stop="20261109192000 +0800" channel="285">
+<programme start="20261109191500 +0800" stop="20261109192200 +0800" channel="285">
 <title lang="zh">平安119</title>
 </programme>
-<programme start="20261109192000 +0800" stop="20261109192200 +0800" channel="285">
+<programme start="20261109192200 +0800" stop="20261109201200 +0800" channel="285">
 <title lang="zh">法眼大律师</title>
-</programme>
-<programme start="20261109192200 +0800" stop="20261109201000 +0800" channel="285">
-<title lang="zh">法眼大律师</title>
-</programme>
-<programme start="20261109201000 +0800" stop="20261109201200 +0800" channel="285">
-<title lang="zh">总局公益留守儿童合唱团</title>
 </programme>
 <programme start="20261109201200 +0800" stop="20261109210000 +0800" channel="285">
 <title lang="zh">百医百顺</title>
@@ -260206,112 +260131,109 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261109000000 +0800" stop="20261109003500 +0800" channel="294">
 <title lang="zh">精彩呈现</title>
 </programme>
-<programme start="20261109003500 +0800" stop="20261109011300 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109003500 +0800" stop="20261109011600 +0800" channel="294">
+<title lang="zh">河山(19)</title>
 </programme>
-<programme start="20261109011300 +0800" stop="20261109015200 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109011600 +0800" stop="20261109015700 +0800" channel="294">
+<title lang="zh">河山(20)</title>
 </programme>
-<programme start="20261109015200 +0800" stop="20261109023300 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109015700 +0800" stop="20261109023700 +0800" channel="294">
+<title lang="zh">河山(21)</title>
 </programme>
-<programme start="20261109023300 +0800" stop="20261109031200 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109023700 +0800" stop="20261109024700 +0800" channel="294">
+<title lang="zh">保密科普微纪录片(5)</title>
 </programme>
-<programme start="20261109031200 +0800" stop="20261109035200 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109024700 +0800" stop="20261109032700 +0800" channel="294">
+<title lang="zh">河山(22)</title>
 </programme>
-<programme start="20261109035200 +0800" stop="20261109040300 +0800" channel="294">
-<title lang="zh">纪录片</title>
+<programme start="20261109032700 +0800" stop="20261109040800 +0800" channel="294">
+<title lang="zh">河山(23)</title>
 </programme>
-<programme start="20261109040300 +0800" stop="20261109044100 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109040800 +0800" stop="20261109044900 +0800" channel="294">
+<title lang="zh">河山(24)</title>
 </programme>
-<programme start="20261109044100 +0800" stop="20261109051900 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109044900 +0800" stop="20261109053000 +0800" channel="294">
+<title lang="zh">河山(25)</title>
 </programme>
-<programme start="20261109051900 +0800" stop="20261109055800 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109053000 +0800" stop="20261109061000 +0800" channel="294">
+<title lang="zh">河山(26)</title>
 </programme>
-<programme start="20261109055800 +0800" stop="20261109063500 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109061000 +0800" stop="20261109065400 +0800" channel="294">
+<title lang="zh">河山(27)</title>
 </programme>
-<programme start="20261109063500 +0800" stop="20261109071900 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109065400 +0800" stop="20261109073800 +0800" channel="294">
+<title lang="zh">河山(28)</title>
 </programme>
-<programme start="20261109071900 +0800" stop="20261109080200 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109073800 +0800" stop="20261109082400 +0800" channel="294">
+<title lang="zh">河山(29)</title>
 </programme>
-<programme start="20261109080200 +0800" stop="20261109084300 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109082400 +0800" stop="20261109090500 +0800" channel="294">
+<title lang="zh">河山(30)</title>
 </programme>
-<programme start="20261109084300 +0800" stop="20261109092100 +0800" channel="294">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109092100 +0800" stop="20261109095000 +0800" channel="294">
+<programme start="20261109090500 +0800" stop="20261109093200 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109095000 +0800" stop="20261109102800 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109093200 +0800" stop="20261109101200 +0800" channel="294">
+<title lang="zh">河山(31)</title>
 </programme>
-<programme start="20261109102800 +0800" stop="20261109105600 +0800" channel="294">
+<programme start="20261109101200 +0800" stop="20261109103800 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109105600 +0800" stop="20261109113400 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109103800 +0800" stop="20261109111900 +0800" channel="294">
+<title lang="zh">河山(32)</title>
 </programme>
-<programme start="20261109113400 +0800" stop="20261109121100 +0800" channel="294">
+<programme start="20261109111900 +0800" stop="20261109115600 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109121100 +0800" stop="20261109124900 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109115600 +0800" stop="20261109123600 +0800" channel="294">
+<title lang="zh">河山(33)</title>
 </programme>
-<programme start="20261109124900 +0800" stop="20261109132400 +0800" channel="294">
+<programme start="20261109123600 +0800" stop="20261109131000 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109132400 +0800" stop="20261109140200 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109131000 +0800" stop="20261109135000 +0800" channel="294">
+<title lang="zh">河山(34)</title>
 </programme>
-<programme start="20261109140200 +0800" stop="20261109143700 +0800" channel="294">
+<programme start="20261109135000 +0800" stop="20261109142600 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109143700 +0800" stop="20261109151400 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109142600 +0800" stop="20261109150700 +0800" channel="294">
+<title lang="zh">河山(35)</title>
 </programme>
-<programme start="20261109151400 +0800" stop="20261109154900 +0800" channel="294">
+<programme start="20261109150700 +0800" stop="20261109154700 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109154900 +0800" stop="20261109162700 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109154700 +0800" stop="20261109162800 +0800" channel="294">
+<title lang="zh">河山(36)</title>
 </programme>
-<programme start="20261109162700 +0800" stop="20261109171100 +0800" channel="294">
+<programme start="20261109162800 +0800" stop="20261109170900 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109171100 +0800" stop="20261109174900 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109170900 +0800" stop="20261109175000 +0800" channel="294">
+<title lang="zh">河山(37)</title>
 </programme>
-<programme start="20261109174900 +0800" stop="20261109183000 +0800" channel="294">
+<programme start="20261109175000 +0800" stop="20261109183000 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
 <programme start="20261109183000 +0800" stop="20261109200000 +0800" channel="294">
 <title lang="zh">百姓关注</title>
 </programme>
-<programme start="20261109200000 +0800" stop="20261109205200 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109200000 +0800" stop="20261109205100 +0800" channel="294">
+<title lang="zh">向着炮火前进(29)</title>
 </programme>
-<programme start="20261109205200 +0800" stop="20261109213300 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109205100 +0800" stop="20261109213300 +0800" channel="294">
+<title lang="zh">向着炮火前进(30)</title>
 </programme>
 <programme start="20261109213300 +0800" stop="20261109220200 +0800" channel="294">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109220200 +0800" stop="20261109224900 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109220200 +0800" stop="20261109224500 +0800" channel="294">
+<title lang="zh">向着炮火前进(31)</title>
 </programme>
-<programme start="20261109224900 +0800" stop="20261109233300 +0800" channel="294">
-<title lang="zh">剧场</title>
+<programme start="20261109224500 +0800" stop="20261109232700 +0800" channel="294">
+<title lang="zh">向着炮火前进(32)</title>
 </programme>
-<programme start="20261109233300 +0800" stop="20261109235959 +0800" channel="294">
+<programme start="20261109232700 +0800" stop="20261109235959 +0800" channel="294">
 <title lang="zh">家园</title>
 </programme>
 <channel id="295">
@@ -262117,35 +262039,35 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261109000000 +0800" stop="20261109003000 +0800" channel="297">
 <title lang="zh">蜜蜂计划</title>
 </programme>
-<programme start="20261109003000 +0800" stop="20261109010100 +0800" channel="297">
+<programme start="20261109003000 +0800" stop="20261109005500 +0800" channel="297">
 <title lang="zh">黔进的力量</title>
 </programme>
-<programme start="20261109010100 +0800" stop="20261109012200 +0800" channel="297">
-<title lang="zh">大学生返乡创业</title>
+<programme start="20261109005500 +0800" stop="20261109011600 +0800" channel="297">
+<title lang="zh">苏炫畅</title>
 </programme>
-<programme start="20261109012200 +0800" stop="20261109015000 +0800" channel="297">
-<title lang="zh">大学生返乡创业</title>
+<programme start="20261109011600 +0800" stop="20261109014300 +0800" channel="297">
+<title lang="zh">冉茂鹏</title>
 </programme>
-<programme start="20261109015000 +0800" stop="20261109021800 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<programme start="20261109014300 +0800" stop="20261109021200 +0800" channel="297">
+<title lang="zh">奇趣大自然(22)</title>
 </programme>
-<programme start="20261109021800 +0800" stop="20261109024900 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<programme start="20261109021200 +0800" stop="20261109024300 +0800" channel="297">
+<title lang="zh">绿野中国(22)</title>
 </programme>
-<programme start="20261109024900 +0800" stop="20261109031800 +0800" channel="297">
+<programme start="20261109024300 +0800" stop="20261109031300 +0800" channel="297">
 <title lang="zh">蜜蜂计划</title>
 </programme>
-<programme start="20261109031800 +0800" stop="20261109034900 +0800" channel="297">
+<programme start="20261109031300 +0800" stop="20261109034700 +0800" channel="297">
 <title lang="zh">贵州制造</title>
 </programme>
-<programme start="20261109034900 +0800" stop="20261109041700 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<programme start="20261109034700 +0800" stop="20261109041500 +0800" channel="297">
+<title lang="zh">奇趣大自然(23)</title>
 </programme>
-<programme start="20261109041700 +0800" stop="20261109044700 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<programme start="20261109041500 +0800" stop="20261109044700 +0800" channel="297">
+<title lang="zh">绿野中国(23)</title>
 </programme>
 <programme start="20261109044700 +0800" stop="20261109050400 +0800" channel="297">
-<title lang="zh">农科课堂</title>
+<title lang="zh">茶树</title>
 </programme>
 <programme start="20261109050400 +0800" stop="20261109053000 +0800" channel="297">
 <title lang="zh">贵州制造</title>
@@ -262154,109 +262076,109 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <title lang="zh">蜜蜂计划</title>
 </programme>
 <programme start="20261109060000 +0800" stop="20261109062800 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<title lang="zh">奇趣大自然(24)</title>
 </programme>
 <programme start="20261109062800 +0800" stop="20261109065300 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<title lang="zh">绿野中国(24)</title>
 </programme>
-<programme start="20261109065300 +0800" stop="20261109072700 +0800" channel="297">
+<programme start="20261109065300 +0800" stop="20261109072300 +0800" channel="297">
 <title lang="zh">蜜蜂计划</title>
 </programme>
-<programme start="20261109072700 +0800" stop="20261109075300 +0800" channel="297">
+<programme start="20261109072300 +0800" stop="20261109074900 +0800" channel="297">
 <title lang="zh">贵州制造</title>
 </programme>
-<programme start="20261109075300 +0800" stop="20261109083500 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109074900 +0800" stop="20261109083100 +0800" channel="297">
+<title lang="zh">潜行者(35)</title>
 </programme>
-<programme start="20261109083500 +0800" stop="20261109085200 +0800" channel="297">
-<title lang="zh">农科课堂</title>
+<programme start="20261109083100 +0800" stop="20261109085000 +0800" channel="297">
+<title lang="zh">柑橘</title>
 </programme>
-<programme start="20261109085200 +0800" stop="20261109093300 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109085000 +0800" stop="20261109093100 +0800" channel="297">
+<title lang="zh">潜行者(36)</title>
 </programme>
-<programme start="20261109093300 +0800" stop="20261109095400 +0800" channel="297">
+<programme start="20261109093100 +0800" stop="20261109095200 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109095400 +0800" stop="20261109103600 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109095200 +0800" stop="20261109103300 +0800" channel="297">
+<title lang="zh">潜行者(37)</title>
 </programme>
-<programme start="20261109103600 +0800" stop="20261109110100 +0800" channel="297">
+<programme start="20261109103300 +0800" stop="20261109105900 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109110100 +0800" stop="20261109114300 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109105900 +0800" stop="20261109114000 +0800" channel="297">
+<title lang="zh">战火红颜(1)</title>
 </programme>
-<programme start="20261109114300 +0800" stop="20261109120700 +0800" channel="297">
+<programme start="20261109114000 +0800" stop="20261109120500 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109120700 +0800" stop="20261109124800 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109120500 +0800" stop="20261109124700 +0800" channel="297">
+<title lang="zh">战火红颜(2)</title>
 </programme>
-<programme start="20261109124800 +0800" stop="20261109131300 +0800" channel="297">
+<programme start="20261109124700 +0800" stop="20261109131200 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109131300 +0800" stop="20261109133900 +0800" channel="297">
+<programme start="20261109131200 +0800" stop="20261109133800 +0800" channel="297">
 <title lang="zh">品牌</title>
 </programme>
-<programme start="20261109133900 +0800" stop="20261109142100 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109133800 +0800" stop="20261109142000 +0800" channel="297">
+<title lang="zh">战火红颜(3)</title>
 </programme>
-<programme start="20261109142100 +0800" stop="20261109144600 +0800" channel="297">
+<programme start="20261109142000 +0800" stop="20261109144500 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109144600 +0800" stop="20261109152800 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109144500 +0800" stop="20261109152700 +0800" channel="297">
+<title lang="zh">战火红颜(4)</title>
 </programme>
-<programme start="20261109152800 +0800" stop="20261109155000 +0800" channel="297">
+<programme start="20261109152700 +0800" stop="20261109154900 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109155000 +0800" stop="20261109163100 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109154900 +0800" stop="20261109163000 +0800" channel="297">
+<title lang="zh">战火红颜(5)</title>
 </programme>
-<programme start="20261109163100 +0800" stop="20261109165200 +0800" channel="297">
+<programme start="20261109163000 +0800" stop="20261109165100 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109165200 +0800" stop="20261109173200 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109165100 +0800" stop="20261109173200 +0800" channel="297">
+<title lang="zh">战火红颜(6)</title>
 </programme>
-<programme start="20261109173200 +0800" stop="20261109175600 +0800" channel="297">
+<programme start="20261109173200 +0800" stop="20261109175500 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109175600 +0800" stop="20261109183500 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109175500 +0800" stop="20261109183600 +0800" channel="297">
+<title lang="zh">战火红颜(7)</title>
 </programme>
-<programme start="20261109183500 +0800" stop="20261109190000 +0800" channel="297">
+<programme start="20261109183600 +0800" stop="20261109190000 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
 <programme start="20261109190000 +0800" stop="20261109193400 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<title lang="zh">奇趣大自然(25)</title>
 </programme>
 <programme start="20261109193400 +0800" stop="20261109200500 +0800" channel="297">
 <title lang="zh">品牌</title>
 </programme>
-<programme start="20261109200500 +0800" stop="20261109203200 +0800" channel="297">
-<title lang="zh">纪录片</title>
+<programme start="20261109200500 +0800" stop="20261109203100 +0800" channel="297">
+<title lang="zh">绿野中国(25)</title>
 </programme>
-<programme start="20261109203200 +0800" stop="20261109204800 +0800" channel="297">
-<title lang="zh">农科课堂</title>
+<programme start="20261109203100 +0800" stop="20261109204900 +0800" channel="297">
+<title lang="zh">芭蕉芋</title>
 </programme>
-<programme start="20261109204800 +0800" stop="20261109212900 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109204900 +0800" stop="20261109213000 +0800" channel="297">
+<title lang="zh">兵临村下(14)</title>
 </programme>
-<programme start="20261109212900 +0800" stop="20261109215300 +0800" channel="297">
+<programme start="20261109213000 +0800" stop="20261109215400 +0800" channel="297">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109215300 +0800" stop="20261109223700 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109215400 +0800" stop="20261109223600 +0800" channel="297">
+<title lang="zh">兵临村下(15)</title>
 </programme>
-<programme start="20261109223700 +0800" stop="20261109225600 +0800" channel="297">
-<title lang="zh">农科课堂</title>
+<programme start="20261109223600 +0800" stop="20261109225500 +0800" channel="297">
+<title lang="zh">辣椒育苗</title>
 </programme>
-<programme start="20261109225600 +0800" stop="20261109233700 +0800" channel="297">
-<title lang="zh">剧场</title>
+<programme start="20261109225500 +0800" stop="20261109233700 +0800" channel="297">
+<title lang="zh">兵临村下(16)</title>
 </programme>
 <programme start="20261109233700 +0800" stop="20261109235959 +0800" channel="297">
-<title lang="zh">农科课堂</title>
+<title lang="zh">辣椒疫病</title>
 </programme>
 <channel id="298">
 <display-name lang="zh">贵州科教健康</display-name>
@@ -263230,116 +263152,134 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108234200 +0800" stop="20261108235959 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109000700 +0800" channel="298">
+<programme start="20261109000000 +0800" stop="20261109000400 +0800" channel="298">
 <title lang="zh">精彩呈现</title>
 </programme>
-<programme start="20261109000700 +0800" stop="20261109002700 +0800" channel="298">
+<programme start="20261109000400 +0800" stop="20261109002400 +0800" channel="298">
 <title lang="zh">太阳雨</title>
 </programme>
-<programme start="20261109002700 +0800" stop="20261109005100 +0800" channel="298">
+<programme start="20261109002400 +0800" stop="20261109004800 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109005100 +0800" stop="20261109011600 +0800" channel="298">
+<programme start="20261109004800 +0800" stop="20261109011200 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109011600 +0800" stop="20261109014500 +0800" channel="298">
+<programme start="20261109011200 +0800" stop="20261109015200 +0800" channel="298">
 <title lang="zh">科普云课堂</title>
 </programme>
-<programme start="20261109014500 +0800" stop="20261109020900 +0800" channel="298">
+<programme start="20261109015200 +0800" stop="20261109021700 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109020900 +0800" stop="20261109024900 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109021700 +0800" stop="20261109025800 +0800" channel="298">
+<title lang="zh">孤舟(3)</title>
 </programme>
-<programme start="20261109024900 +0800" stop="20261109033000 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109025800 +0800" stop="20261109033900 +0800" channel="298">
+<title lang="zh">孤舟(4)</title>
 </programme>
-<programme start="20261109033000 +0800" stop="20261109041000 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109033900 +0800" stop="20261109042000 +0800" channel="298">
+<title lang="zh">孤舟(5)</title>
 </programme>
-<programme start="20261109041000 +0800" stop="20261109043000 +0800" channel="298">
+<programme start="20261109042000 +0800" stop="20261109044000 +0800" channel="298">
 <title lang="zh">太阳雨</title>
 </programme>
-<programme start="20261109043000 +0800" stop="20261109045400 +0800" channel="298">
+<programme start="20261109044000 +0800" stop="20261109050500 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109045400 +0800" stop="20261109052400 +0800" channel="298">
+<programme start="20261109050500 +0800" stop="20261109054500 +0800" channel="298">
 <title lang="zh">科普云课堂</title>
 </programme>
-<programme start="20261109052400 +0800" stop="20261109054800 +0800" channel="298">
+<programme start="20261109054500 +0800" stop="20261109060900 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109054800 +0800" stop="20261109061200 +0800" channel="298">
+<programme start="20261109060900 +0800" stop="20261109063300 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109061200 +0800" stop="20261109063700 +0800" channel="298">
+<programme start="20261109063300 +0800" stop="20261109065700 +0800" channel="298">
 <title lang="zh">人文中国</title>
 </programme>
-<programme start="20261109063700 +0800" stop="20261109065700 +0800" channel="298">
-<title lang="zh">太阳雨</title>
+<programme start="20261109065700 +0800" stop="20261109073800 +0800" channel="298">
+<title lang="zh">护国军魂传奇(11)</title>
 </programme>
-<programme start="20261109065700 +0800" stop="20261109073700 +0800" channel="298">
-<title lang="zh">剧场</title>
-</programme>
-<programme start="20261109073700 +0800" stop="20261109080100 +0800" channel="298">
+<programme start="20261109073800 +0800" stop="20261109075800 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109080100 +0800" stop="20261109084100 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109075800 +0800" stop="20261109080100 +0800" channel="298">
+<title lang="zh">广告</title>
 </programme>
-<programme start="20261109084100 +0800" stop="20261109090400 +0800" channel="298">
+<programme start="20261109080100 +0800" stop="20261109084200 +0800" channel="298">
+<title lang="zh">护国军魂传奇(12)</title>
+</programme>
+<programme start="20261109084200 +0800" stop="20261109090200 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109090400 +0800" stop="20261109094500 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109090200 +0800" stop="20261109090500 +0800" channel="298">
+<title lang="zh">广告</title>
 </programme>
-<programme start="20261109094500 +0800" stop="20261109101000 +0800" channel="298">
+<programme start="20261109090500 +0800" stop="20261109094600 +0800" channel="298">
+<title lang="zh">护国军魂传奇(13)</title>
+</programme>
+<programme start="20261109094600 +0800" stop="20261109100600 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109101000 +0800" stop="20261109105000 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109100600 +0800" stop="20261109100900 +0800" channel="298">
+<title lang="zh">广告</title>
 </programme>
-<programme start="20261109105000 +0800" stop="20261109111500 +0800" channel="298">
+<programme start="20261109100900 +0800" stop="20261109105000 +0800" channel="298">
+<title lang="zh">护国军魂传奇(14)</title>
+</programme>
+<programme start="20261109105000 +0800" stop="20261109111000 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109111500 +0800" stop="20261109115600 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109111000 +0800" stop="20261109111400 +0800" channel="298">
+<title lang="zh">广告</title>
 </programme>
-<programme start="20261109115600 +0800" stop="20261109122000 +0800" channel="298">
+<programme start="20261109111400 +0800" stop="20261109115500 +0800" channel="298">
+<title lang="zh">护国军魂传奇(15)</title>
+</programme>
+<programme start="20261109115500 +0800" stop="20261109121500 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109122000 +0800" stop="20261109130000 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109121500 +0800" stop="20261109121800 +0800" channel="298">
+<title lang="zh">广告</title>
 </programme>
-<programme start="20261109130000 +0800" stop="20261109132100 +0800" channel="298">
+<programme start="20261109121800 +0800" stop="20261109125900 +0800" channel="298">
+<title lang="zh">护国军魂传奇(16)</title>
+</programme>
+<programme start="20261109125900 +0800" stop="20261109131900 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109132100 +0800" stop="20261109140100 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109131900 +0800" stop="20261109140000 +0800" channel="298">
+<title lang="zh">护国军魂传奇(17)</title>
 </programme>
-<programme start="20261109140100 +0800" stop="20261109142500 +0800" channel="298">
+<programme start="20261109140000 +0800" stop="20261109142000 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109142500 +0800" stop="20261109150500 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109142000 +0800" stop="20261109142300 +0800" channel="298">
+<title lang="zh">广告</title>
+</programme>
+<programme start="20261109142300 +0800" stop="20261109150500 +0800" channel="298">
+<title lang="zh">护国军魂传奇(18)</title>
 </programme>
 <programme start="20261109150500 +0800" stop="20261109152500 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
-<programme start="20261109152500 +0800" stop="20261109160600 +0800" channel="298">
-<title lang="zh">剧场</title>
+<programme start="20261109152500 +0800" stop="20261109160500 +0800" channel="298">
+<title lang="zh">护国军魂传奇(19)</title>
 </programme>
-<programme start="20261109160600 +0800" stop="20261109162900 +0800" channel="298">
+<programme start="20261109160500 +0800" stop="20261109162500 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
+<programme start="20261109162500 +0800" stop="20261109162900 +0800" channel="298">
+<title lang="zh">广告</title>
+</programme>
 <programme start="20261109162900 +0800" stop="20261109171000 +0800" channel="298">
-<title lang="zh">剧场</title>
+<title lang="zh">护国军魂传奇(20)</title>
 </programme>
 <programme start="20261109171000 +0800" stop="20261109173000 +0800" channel="298">
 <title lang="zh">栏目</title>
 </programme>
 <programme start="20261109173000 +0800" stop="20261109181100 +0800" channel="298">
-<title lang="zh">剧场</title>
+<title lang="zh">护国军魂传奇(21)</title>
 </programme>
 <programme start="20261109181100 +0800" stop="20261109183600 +0800" channel="298">
 <title lang="zh">栏目</title>
@@ -263800,80 +263740,71 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261108230000 +0800" stop="20261108233000 +0800" channel="299">
 <title lang="zh">宁夏新闻联播</title>
 </programme>
-<programme start="20261109000000 +0800" stop="20261109004500 +0800" channel="299">
+<programme start="20261109000000 +0800" stop="20261109003500 +0800" channel="299">
 <title lang="zh">精彩呈现</title>
 </programme>
-<programme start="20261109004500 +0800" stop="20261109010500 +0800" channel="299">
-<title lang="zh">医生到你身边</title>
+<programme start="20261109003500 +0800" stop="20261109005500 +0800" channel="299">
+<title lang="zh">健康宁夏</title>
 </programme>
-<programme start="20261109010500 +0800" stop="20261109011500 +0800" channel="299">
-<title lang="zh">平安119</title>
+<programme start="20261109005500 +0800" stop="20261109011000 +0800" channel="299">
+<title lang="zh">火焰蓝在行动</title>
 </programme>
-<programme start="20261109011500 +0800" stop="20261109065500 +0800" channel="299">
-<title lang="zh">法治中国60分</title>
+<programme start="20261109011000 +0800" stop="20261109065500 +0800" channel="299">
+<title lang="zh">神医喜来乐(30)</title>
 </programme>
 <programme start="20261109065500 +0800" stop="20261109070000 +0800" channel="299">
-<title lang="zh">测试卡开始曲</title>
+<title lang="zh">静屏</title>
 </programme>
-<programme start="20261109070000 +0800" stop="20261109072500 +0800" channel="299">
-<title lang="zh">宁夏新闻联播</title>
+<programme start="20261109070000 +0800" stop="20261109080000 +0800" channel="299">
+<title lang="zh">直播60分</title>
 </programme>
-<programme start="20261109072500 +0800" stop="20261109073000 +0800" channel="299">
+<programme start="20261109080000 +0800" stop="20261109082000 +0800" channel="299">
+<title lang="zh">新闻早点到</title>
+</programme>
+<programme start="20261109082000 +0800" stop="20261109083500 +0800" channel="299">
 <title lang="zh">天气预报</title>
 </programme>
-<programme start="20261109073000 +0800" stop="20261109084000 +0800" channel="299">
-<title lang="zh">直播60分</title>
+<programme start="20261109083500 +0800" stop="20261109114000 +0800" channel="299">
+<title lang="zh">老酒馆101112</title>
 </programme>
-<programme start="20261109084000 +0800" stop="20261109113500 +0800" channel="299">
-<title lang="zh">经典剧场</title>
-</programme>
-<programme start="20261109113500 +0800" stop="20261109120000 +0800" channel="299">
-<title lang="zh">医生到你身边</title>
+<programme start="20261109114000 +0800" stop="20261109120000 +0800" channel="299">
+<title lang="zh">健康宁夏</title>
 </programme>
 <programme start="20261109120000 +0800" stop="20261109123000 +0800" channel="299">
-<title lang="zh">午间新闻</title>
+<title lang="zh">新闻正点击</title>
 </programme>
-<programme start="20261109123000 +0800" stop="20261109134400 +0800" channel="299">
+<programme start="20261109123000 +0800" stop="20261109134000 +0800" channel="299">
 <title lang="zh">直播60分</title>
 </programme>
-<programme start="20261109134400 +0800" stop="20261109142000 +0800" channel="299">
-<title lang="zh">阳光汇</title>
+<programme start="20261109134000 +0800" stop="20261109180000 +0800" channel="299">
+<title lang="zh">梦中的那片海2223242526</title>
 </programme>
-<programme start="20261109142000 +0800" stop="20261109165200 +0800" channel="299">
-<title lang="zh">情感剧场</title>
+<programme start="20261109180000 +0800" stop="20261109182500 +0800" channel="299">
+<title lang="zh">火焰蓝在行动</title>
 </programme>
-<programme start="20261109165200 +0800" stop="20261109170000 +0800" channel="299">
-<title lang="zh">阳光汇</title>
-</programme>
-<programme start="20261109170000 +0800" stop="20261109180000 +0800" channel="299">
-<title lang="zh">法治中国60分</title>
-</programme>
-<programme start="20261109180000 +0800" stop="20261109190500 +0800" channel="299">
+<programme start="20261109182500 +0800" stop="20261109193500 +0800" channel="299">
 <title lang="zh">直播60分</title>
-</programme>
-<programme start="20261109190500 +0800" stop="20261109193500 +0800" channel="299">
-<title lang="zh">哈喜喜扯磨</title>
 </programme>
 <programme start="20261109193500 +0800" stop="20261109200200 +0800" channel="299">
 <title lang="zh">宁夏新闻联播</title>
 </programme>
-<programme start="20261109200200 +0800" stop="20261109201500 +0800" channel="299">
-<title lang="zh">新闻话题</title>
+<programme start="20261109200200 +0800" stop="20261109202200 +0800" channel="299">
+<title lang="zh">新闻眼</title>
 </programme>
-<programme start="20261109201500 +0800" stop="20261109202500 +0800" channel="299">
+<programme start="20261109202200 +0800" stop="20261109203000 +0800" channel="299">
 <title lang="zh">天气预报</title>
 </programme>
-<programme start="20261109202500 +0800" stop="20261109222000 +0800" channel="299">
-<title lang="zh">黄金剧场</title>
+<programme start="20261109203000 +0800" stop="20261109222000 +0800" channel="299">
+<title lang="zh">大明风华4647</title>
 </programme>
-<programme start="20261109222000 +0800" stop="20261109224000 +0800" channel="299">
-<title lang="zh">今晚播报</title>
+<programme start="20261109222000 +0800" stop="20261109224500 +0800" channel="299">
+<title lang="zh">新闻正点击晚间版</title>
 </programme>
-<programme start="20261109224000 +0800" stop="20261109225200 +0800" channel="299">
-<title lang="zh">阳光汇</title>
-</programme>
-<programme start="20261109225200 +0800" stop="20261109230000 +0800" channel="299">
+<programme start="20261109224500 +0800" stop="20261109225000 +0800" channel="299">
 <title lang="zh">天气预报</title>
+</programme>
+<programme start="20261109225000 +0800" stop="20261109230000 +0800" channel="299">
+<title lang="zh">我的幸福密码155</title>
 </programme>
 <programme start="20261109230000 +0800" stop="20261109233000 +0800" channel="299">
 <title lang="zh">宁夏新闻联播</title>
@@ -394289,11 +394220,11 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261104233000 +0800" stop="20261105000000 +0800" channel="495">
 <title lang="zh">晚间新闻及时事中国及时事通识</title>
 </programme>
-<programme start="20261105000000 +0800" stop="20261105060000 +0800" channel="495">
-<title lang="zh">精彩呈现</title>
-</programme>
 <programme start="20261105000000 +0800" stop="20261105003000 +0800" channel="495">
 <title lang="zh">深宵新闻报道及新闻档案</title>
+</programme>
+<programme start="20261105000000 +0800" stop="20261105060000 +0800" channel="495">
+<title lang="zh">精彩呈现</title>
 </programme>
 <programme start="20261105003000 +0800" stop="20261105010000 +0800" channel="495">
 <title lang="zh">深宵新闻报道及俯瞰神州及世界观及中华掠影及三日天气预报及环球新闻档案</title>
@@ -394631,11 +394562,11 @@ The Malaysian jungle is an ecosystem of great biodiversity. In the shelter of th
 <programme start="20261106233000 +0800" stop="20261107000000 +0800" channel="495">
 <title lang="zh">晚间新闻及时事中国及时事通识</title>
 </programme>
-<programme start="20261107000000 +0800" stop="20261107060000 +0800" channel="495">
-<title lang="zh">精彩呈现</title>
-</programme>
 <programme start="20261107000000 +0800" stop="20261107003000 +0800" channel="495">
 <title lang="zh">深宵新闻报道及新闻档案</title>
+</programme>
+<programme start="20261107000000 +0800" stop="20261107060000 +0800" channel="495">
+<title lang="zh">精彩呈现</title>
 </programme>
 <programme start="20261107003000 +0800" stop="20261107010000 +0800" channel="495">
 <title lang="zh">深宵新闻报道及俯瞰神州及世界观及中华掠影及三日天气预报及环球新闻档案</title>
